@@ -4,7 +4,9 @@ spring:
   application:
     name: cart-service
   redis:
-    host: 192.168.19.121
+      host: 192.168.0.8
+      port: 6379
+      password:  capinfo_redis_pass
   rabbitmq:
     host: 192.168.0.8
     port: 5672

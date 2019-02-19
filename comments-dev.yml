@@ -22,8 +22,10 @@ spring:
     username: guest
     password: guest
     virtual-host: /
-  redis:
-    host: 192.168.19.121
+   redis:
+       host: 192.168.0.8
+       port: 6379
+       password:  capinfo_redis_pass
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:
