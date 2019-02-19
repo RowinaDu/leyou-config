@@ -8,7 +8,7 @@ spring:
       port: 15672
       username: /guest
       password: guest
-      virtual-host: /leyou
+      virtual-host: /
 eureka:
   client:
     service-url:
