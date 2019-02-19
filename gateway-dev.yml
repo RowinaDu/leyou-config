@@ -54,9 +54,9 @@ leyou:
     pubKeyPath: D:\\rsa.pub # 公钥地址
   filter:
     allowPaths:
-       /api/* #方便调试全部允许
-       /api/search
-       /api/user/register
-       /api/user/check
-       /api/user/*
-       /api/item
+       /api/**     #方便调试全部允许
+#       /api/search
+#       /api/user/register
+#       /api/user/check
+#       /api/user/*
+#       /api/item
