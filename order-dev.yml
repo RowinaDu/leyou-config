@@ -11,10 +11,11 @@ spring:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: 192.168.19.121
-    username: /leyou
-    password: leyou
-    virtual-host: /leyou
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
     template:
       queue: leyou.order.delay.queue
     publisher-confirms: true
