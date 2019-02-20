@@ -5,7 +5,7 @@ spring:
     name: order-service
   datasource:
     url: jdbc:mysql://192.168.0.10:13306/leyou?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
-    username: root
+    username: test
     password: 123456
     hikari:
       maximum-pool-size: 200

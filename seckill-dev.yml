@@ -11,7 +11,7 @@ spring:
       cluster-nodes: 192.168.19.121:9300
   datasource:
     url: jdbc:mysql://192.168.0.10:13306/leyou?characterEncoding=UTF-8&useSSL=false
-    username: root
+    username: test
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
